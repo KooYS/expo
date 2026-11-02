@@ -1,5 +1,14 @@
 # Changelog
 
+## 58.0.30
+
+### Patch Changes
+
+- Prevent `<Link>` from dropping the search params, hash, or part of an external URL from its `href` when they contain parentheses. ([#52587](https://github.com/expo/expo/pull/52587) by [@hassankhan](https://github.com/hassankhan))
+- Updated dependencies. ([#52762](https://github.com/expo/expo/pull/52762))
+  - @expo/log-box@58.0.15
+  - @expo/metro-runtime@58.0.17
+
 ## 58.0.29
 
 ### Patch Changes
